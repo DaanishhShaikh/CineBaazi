@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CineBaazi</title>
+</head>
+<body>
+    <header>
+        <h1>CineBaazi</h1>
+    </header>
+    <main class="container">
+        <div class="search-box">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search Movies ..." required>
+                <button class="search-btn" type="submit">Search</button>
+            </form>
+        </div>
+        <div id="result"></div>
+        <div id="loading-indicator">Loading...</div>
+        <div id="error-message" class="hidden">An error occurred. Please try again.</div>
+    </main>
+    <footer>
+        <p>© 2023 CineBaazi. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
